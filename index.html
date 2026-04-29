@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<style>
+  body{
+background-color: rgba(137, 43, 226, 0.088);
+  }
+  .men{
+    font-size: 5.5em;
+    font-weight: bold;
+    animation-name:animate;
+            animation-duration:10ms;
+            animation-iteration-count:infinite;
+            animation-delay: 1s;
+            animation-duration:5s;
+            animation-timing-function: 2s;
+            color: red;
+            position: relative;
+            bottom: 55px;
+            right: 15px;
+            }
+              @keyframes animate{
+                 from{
+                  transform:matrix(20);
+                  
+                 }
+                     to{
+                     transform:translateY(10px);
+                  }
+                }
+  a{
+    text-decoration: none;
+  }
+  .drop{
+    position: relative;
+    right: 70px;
+    top: 30px;
+    color: blue;
+  }
+  .title{
+display: flex;
+column-gap: 60px;
+border: 2px solid black;
+text-align: center;
+background-color: black;
+color: white;
+text-align: center;
+width: 75%;
+height: 70px;
+position: relative;
+justify-content: center;
+padding: 10px;
+left: 190px;
+text-align: center;
+background-image: url(WEL.jpg);
+background-repeat: no-repeat;
+background-position: 180px;
+background-size: 80px 80px;
+ animation: changew 10s infinite; 
+}
+
+@keyframes changew {
+  0%   { background-image: url('WEL.jpg'); }
+  33%  { background-image: url('FOR7.jpg'); }
+  66%  { background-image: url('boy.jpg'); }
+  100% { background-image: url('vee2.jpg'); }
+}
+  .social-icons{
+    position: relative;
+    left: 50px;
+  }
+  .container{
+    position: relative;
+    top: 90px;
+  }
+  .border{
+    border:1px solid black;
+    border-radius:30px;
+    position: relative;
+    top:60px;
+    background-color:#93c5728b;
+    width: 100px;
+    text-align: center;
+    left: 230px;
+  }
+   button{
+    border: 2px solid black;
+    background-color: #93c5728b;;
+    position: relative;
+    top: 30px;
+    height: 30px;
+    width: 100px;
+  }
+    .dress{
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 20px;
+        text-align: center;
+    }  
+    .head{
+      width: 750px;
+      height: 50px;
+      border: 2px solid black;
+      position: relative;
+      left:300px;
+      bottom: 30px;
+    }
+    .image{
+   
+            display: flex;
+            flex-direction:row;
+          justify-content: center;
+          
+    }
+    .about{
+        display: flex;
+        column-gap: 1%;
+        width: 75%;
+        position: relative;
+        left:193px;
+    }
+    .card{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: none;
+}
+.det1{
+   text-align: center;
+}
+body{
+  background-color: white(0, 0, 0, 0.418);
+}
+.details{
+    display: flex;
+    column-gap:30px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    width: 75%;
+    text-align:center;
+
+}
+.del{
+  width: 300px;
+  height: 150px;
+  border: 2px solid black;
+  background-color:bisque;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+button{
+    position: relative;
+    left: 250px;
+    border-radius: 20px;
+}
+.footer{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+  } 
+  select{
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+  }
+  
+  select{
+    border: none;
+    position: relative;
+    top: 20px;
+    width: 200px;
+  }
+    .end{
+    display:flex;
+    border: 2px solid black;
+    column-gap: 70px;
+    background-color:black;
+    color: white;
+    width: 75%;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact:hover{
+    color: rgb(23, 23, 202);
+  }
+  .kidsfashion{
+    display: flex;
+    column-gap:40px;
+    bottom: 50px;
+    width: 75%;
+    justify-content: center;
+    position: relative;
+    left: 200px;
+    top:30px;
+    height: 700px;
+  }
+  #col:hover{
+      background-color: rgba(203, 203, 11, 0.474)
+      }
+  #col2:hover{
+     background-color: rgba(137, 43, 226, 0.415)
+  }
+  #col3:hover{
+     background-color: rgba(2, 53, 2, 0.367)
+  }
+  #col4:hover{
+    background-color: rgba(136, 5, 5, 0.248)
+  }
+  div:hover .card-title:hover{
+               background-color: aqua;
+                }
+          #file1{
+            display: none;
+          }
+          #file1:target{
+            display: block;
+          }
+          
+          #file2{
+             display: flex;
+           column-gap: 100px;
+}
+.card-text:hover{
+  color: rgb(255, 0, 0);
+}
+.card-title1:hover{
+  color: rgb(0, 255, 72);
+}
+.shirts{
+  display: flex;
+  column-gap: 40px;
+  width: 75%;
+  justify-content: center;
+  position: relative;
+  left: 200px;
+  top: 30px;
+  height: 700px;
+}
+#file2{
+  display: none;
+}
+#file2:target{
+  display: block;
+}
+.pants{
+  display: flex;
+   width: 75%;
+  column-gap:40px;
+  position: relative;
+  justify-content: center;
+  left: 200px;
+  top: 30px;
+  height: 700px;
+}
+#file3{
+  display: none;
+}
+#file3:target{
+  display: block;
+}
+#file4{
+  display: none;
+}
+#file4:target{
+  display: block;
+}
+.vesti{
+  display: flex;
+  column-gap: 40px;
+  width: 75%;
+  position: relative;
+  left: 200px;
+  top: 30px;
+  height: 700px;
+}
+.ima{
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.image8{
+  border-radius: 50px;
+}
+.card-img-top{
+  border: 2px solid black;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+.flex{
+  display: flex;
+  width: 75%;
+  position: relative;
+  left: 200px;
+  top: 130px;
+}
+.id{
+  position: relative;
+  left: 30px;
+}
+        .social:hover{
+            background-repeat: no-repeat;
+            color: #e1306c;
+            
+        }
+        .control{
+    display: flex;
+  width: 250px;
+  height: 50px;
+  column-gap: 1px;
+  }
+ .car{
+ display: flex;
+ column-gap:170px;
+ width: 75%;
+position: relative;
+right:40px;
+}
+.cash1{
+  width:150px;
+  height: 50px;
+  border: 2px solid black;
+}
+.change1 {
+  width: 280px;
+  height: 350px;
+  border: 3px solid black;
+  background-size: cover;
+  border-radius: 20px;
+  /* Name, Duration, Timing Function, Iteration Count */
+  animation: changeBg 10s infinite; 
+}
+
+@keyframes changeBg {
+  0%   { background-image: url('boy.jpg'); }
+  33%  { background-image: url('ki6.jpg'); }
+  66%  { background-image: url('ki3.jpg'); }
+  100% { background-image: url('ki4.jpg'); }
+}
+.change2{
+  width: 280px;
+  height: 350px;
+  border: 3px solid black;
+  background-size: cover;
+  border-radius: 20px;
+  /* Name, Duration, Timing Function, Iteration Count */
+  animation: change 10s infinite; 
+}
+.change{
+  display: flex;
+ column-gap:1%;
+ width: 75%;
+position: relative;
+left: 200px;
+top: 50px;
+color:bisque;
+text-align: center;
+}
+
+@keyframes change{
+  0%   { background-image: url('shirt1.webp'); }
+  33%  { background-image: url('FOR8.jpg'); }
+  66%  { background-image: url('FOR6.jpg'); }
+  100% { background-image: url('FOR2.jpg'); }
+}
+.change3{
+  width: 280px;
+  height: 350px;
+  border: 3px solid black;
+  background-size: cover;
+  border-radius: 20px;
+  /* Name, Duration, Timing Function, Iteration Count */
+  animation: chang 10s infinite; 
+}
+
+@keyframes chang{
+  0%   { background-image: url('pa5.jpg'); }
+  25%  { background-image: url('ima15.jpg'); }
+  50%  { background-image: url('ima14.jpg'); }
+  100% { background-image: url('ima13.webp'); }
+}
+.change4{
+  width: 280px;
+  height: 350px;
+  border: 3px solid black;
+  background-size: cover;
+  border-radius: 20px;
+  /* Name, Duration, Timing Function, Iteration Count */
+  animation: chan 10s infinite; 
+}
+@keyframes chan{
+  0%   { background-image: url('boy7.jpg'); }
+  33%  { background-image: url('noon.webp'); }
+  66%  { background-image: url('v6.jpg'); }
+  100% { background-image: url('v5.jpg'); }
+}
+iframe{
+  width: 75%;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+.social:hover{
+  color: #e1306c;
+}
+
+
+ </style>
+<body>
+        <div class="arun"><br>
+        <div class="title">
+           <p class="men">M</p> 
+           <p class="drop">ENSHUB</p>
+          <a href="Project.html"><p>HOME</p></a> 
+          <a href="PROJECT10.html"><P>MENS SHIRTS</P></a>
+          <a href="project11.html"><P>PANTS</P></a>
+          <a href="Project.13.html"><P>VESHTI SHIRTS</P></a>
+          <a href="Project12.html"><P>BABY COLLECTION</P></a>
+          <a href="project6.html"><P>BILL SECTION</p></a>
+          </div><br>
+           <div class="image">
+            <img src="boy.jpg"width="20%">
+  <img src="C:\Users\dhanu\Pictures\style2.jpg" class="back"width="35%">
+  <img src="noon.webp"width="20%">
+ </div>
+</div><br>
+<div class="car">
+  <a href="PROJECT10.html"><button class="cash1">Casual shirts</button></a>
+  <a href="project11.html"><button class="cash1">Sleevles pants</button></a>
+  <a href="project12.html"><button class="cash1">Fashion kids dress</button></a>
+  <a href="project.13.html"><button class="cash1">Fashion veshti shirt</button></a>
+</div><br><br>
+<div class="change">
+  <div class="change1">KIDS DRESS FASHION</div>
+  <div class="change2">NEW SHIRTS</div>
+  <div class="change3">TRENDING PANTS</div>
+  <div class="change4">VESTI SHIRTS</div>
+</div>
+<br><br><br><br><br>
+<div class="collection">
+        <div class="content1">
+<div class="about">
+    <div class="card">
+    <h1>Kids Collections</h1>
+    <p>Boys Wear</p>
+    <p>School Uniform</p>
+    <p>Festive&Party Wear</p>
+     <p>Ethinic&Treditional</p>
+     <p>Check& Print Shirts</p>
+</div>
+<div class="card">
+  <h1>Shirts Collections</h1>
+ <p>Casual Shirts</p>
+    <p>Formal Shirts</p>
+    <p>Half-Sleeve Shirts</p>
+     <p>Full-Sleeve Shirts</p>
+     <p>Check& Print Shirts</p>
+</div>
+<div class="card">
+<h1>Pants Collections</h1>
+<p>Linen Pants</p>
+<p>Slim Fit Pants</p>
+<p>Chinos&Cargos</p>
+<p>Dhoti-Style-Pants</p>
+<p>Joggers&Track Pants</p>
+</div>
+<div class="card">
+    <h1>Vesti Collections</h1>
+    <p>Silk Vesti</p>
+     <p>Double Dhoti</p>
+    <p>Festival Vesti</p>
+    <p>Border&Zair Work</p>
+     <p>Pure Cotton Vesti</p>
+</div>
+</div><br><br>
+<div class="details">
+    <h1 class="del"id="col">
+         <a href="#file1">👕<br><h1>Little Luxe</h1><h6>Boys kids:Toddler</h6></a>
+    </h1>
+    <h1 class="del" id="col2">
+      <a href="#file2">👔<br><h1>Shirt Hub</h1><h6>Casual Formal: Linen</h6></a>
+      </h1>
+    <h1 class="del" id="col3">
+      <a href="#file3">👖<br><h1>Smart Pants</h1><h6>Slim.Chinos: Joggers</h6></a>
+  </h1>
+    <h1 class="del"id="col4">
+      <a href="#file4">👘<br><h1>Royal Veshti</h1><h6>Silk cotton: Festival</h6></a>
+    </h1>
+</div><br>
+  <!-- kids -->
+   <div class="allkids" id="file1">
+    <div class="kidsfashion">
+    <div class="card" style="width: 18rem;">
+  <img src="image8.jpg" class="card-img-top" width="50%";>
+  <div class="card-body">
+    <h5 class="card-title">Fashion color shirt</h5>
+    <p class="card-text">A fashion color shirt uses trending shades, vibrant tones, or unique patterns to make a stylish, intentional statement rather than just acting as a basic staple.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹1000</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="image9.jpg" class="card-img-top" width="50%"..>
+  <div class="card-body">
+    <h5 class="card-title">Fashion color shirt</h5>
+    <p class="card-text">A fashion color shirt uses trending shades, vibrant tones, or unique patterns to make a stylish, intentional statement rather than just acting as a basic staple.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹2000</a>
+  </div>
+</div>
+  <div class="card" style="width: 16rem;">
+  <img src="C:\Users\dhanu\New folder (2)\dhanush\Ecomerce\boy.jpg" class="card-img-top" width="50%"..>
+  <div class="card-body">
+    <h5 class="card-title">Fashion Dress</h5>
+    <p class="card-text">A fashion color shirt uses trending shades, vibrant tones, or unique patterns to make a stylish, intentional statement rather than.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹3000</a>
+  </div>
+</div>
+  <div class="card" style="width: 19rem;">
+  <img src="kid7.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Sleevles T-shirt</h5>
+    <p class="card-text">A fashion color T-shirt uses trending shades, vibrant tones, or unique patterns to make a stylish, intentional statement rather than just acting as a basic staple.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹1200</a>
+  </div>
+</div>
+  </div>
+   </div>
+  <!-- shirt -->
+   <div class="allshirts" id="file2">
+    <div class="shirts">
+    <div class="card" style="width: 16.6rem;">
+  <img src="poli.jpg" class="card-img-top" width="50%";>
+  <div class="card-body">
+    <h5 class="card-title">White  shirt</h5>
+    <p class="card-text">A polo shirt is a versatile casual top featuring a turnover collar, a two or three-button placket, and short sleeves.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹1500</a>
+  </div>
+</div>
+    <div class="card" style="width: 15rem;">
+  <img src="shirt1.webp" class="card-img-top" width="100%";>
+  <div class="card-body">
+    <h5 class="card-title">polo  shirt</h5>
+    <p class="card-text">A polo shirt is a versatile casual top featuring a turnover collar, a two or three-button placket.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹2500</a>
+  </div>
+</div>
+    <div class="card" style="width: 18rem;">
+  <img src="shirt4.webp" class="card-img-top" width="50%";>
+  <div class="card-body">
+    <h5 class="card-title">Flannel shirt</h5>
+    <p class="card-text">A polo shirt is a versatile casual top featuring a turnover collar, a two or three-button placket, and short sleeves.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹1900</a>
+  </div>
+</div>
+    <div class="card" style="width: 18rem;">
+  <img src="shirt2.webp" class="card-img-top" width="50%";>
+  <div class="card-body">
+    <h5 class="card-title">Oxford shirt</h5>
+    <p class="card-text">A polo shirt is a versatile casual top featuring a turnover collar, a two or three-button placket, and short sleeves.</p>
+    <a href="PROJECT6.HTML" class="btn btn-primary">price=₹1800</a>
+  </div> 
+</div>
+</div>
+    </div></div>
+<!-- pants -->
+ <div class="allpants" id="file3">
+  <div class="pants">
+  <div class="card" style="width: 23rem;">
+  <img src="not1.jpg" class="card-img-top" width="50%";>
+    <div class="card-body">
+      <h5 class="card-title1">SLEEVLES PANTS</h5>
+      <p class="card-text">Pants (or trousers) are lower-body garments covering both legs separately from the waist to the ankles or knees.</p>
+      <a href="PROJECT6.HTML" class="btn btn-primary">price=₹1800</a>
+    </div>
+  </div>
+   <div class="card" style="width: 23rem;">
+  <img src="pa.jpg" class="card-img-top" width="50%";>
+     <div class="card-body">
+      <h5 class="card-title1">SLIM FIT JEANS</h5>
+      <p class="card-text">Pants (or trousers) are lower-body garments covering both legs separately from the waist to the ankles or knees.</p>
+      <a href="PROJECT6.HTML" class="btn btn-primary">price=₹2000</a>
+    </div>
+  </div>
+  <div class="card" style="width: 23rem;">
+        <img src="pa4.jpg" class="card-img-top" width="50%">
+    <div class="card-body">
+      <h5 class="card-title1">MENS CHINO</h5>
+      <p class="card-text">Pants (or trousers) are lower-body garments covering both legs separately from the waist to the ankles or knees.</p>
+      <a href="PROJECT6.HTML" class="btn btn-primary">price=₹3000</a>
+  </div>
+</div>
+  <div class="card" style="width: 23rem;">
+    <img src="pa2.jpg" class="card-img-top"width="115%">
+    <div class="card-body">
+      <h5 class="card-title1">CARGO PANTS</h5>
+      <p class="card-text">Pants (or trousers) are lower-body garments covering both legs separately from the waist to the ankles or knees.</p>
+      <a href="PROJECT6.HTML" class="btn btn-primary">price=₹2800</a>
+    </div>
+  </div>
+  </div>
+ </div>
+  <!-- vestishirt -->
+   <div class="allvesti" id="file4">
+  <div class="vesti">
+   <div class="card" style="width: 23rem;">
+    <img src="vee1.jpg" class="card-img-top"width="115%">
+    <div class="card-body">
+      <h5 class="card-title1"> Madras Shirt</h5>
+       <p class="card-text">A Veshti and Shirt set is a cloth wrapped around the lower body (Veshti)</p>
+       <a href="PROJECT6.HTML" class="btn btn-primary">price=₹5800</a>
+    </div>
+  </div>
+   <div class="card" style="width: 23rem;">
+    <img src="vee2.jpg" class="card-img-top"width="115%">
+    <div class="card-body">
+      <h5 class="card-title1">Color vesti shirt</h5>
+       <p class="card-text">A Veshti and Shirt set is a cloth wrapped around the lower body (Veshti)</p>
+     <a href="PROJECT6.HTML" class="btn btn-primary">price=₹4800</a>
+    </div>
+  </div>
+   <div class="card" style="width: 23rem;">
+    <img src="vee4.jpg" class="card-img-top"width="115%">
+    <div class="card-body">
+      <h5 class="card-title1">Gold border Shirt</h5> 
+       <p class="card-text">A Veshti and Shirt set is a cloth wrapped around the lower body (Veshti)</p>
+      <a href="PROJECT6.HTML" class="btn btn-primary">price=₹3000</a>
+    </div>
+  </div>
+   <div class="card" style="width: 22.5rem;">
+    <img src="vee3.jpg" class="card-img-top"width="115%">
+    <div class="card-body">
+      <h5 class="card-title1">Muhurtham Shirt</h5>
+       <p class="card-text">A Veshti and Shirt set is a cloth wrapped around the lower body (Veshti)</p>
+       <a href="PROJECT6.HTML" class="btn btn-primary">price=₹7000</a>
+    </div>
+    </div>
+  </div></div></div><br><br><br>
+    <div class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15688.399170179002!2d78.76952639464285!3d10.571363633041623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa85a41a577c31%3A0x696307b5a5ab0696!2sKeeranur%2C%20Tamil%20Nadu%20622502!5e0!3m2!1sen!2sin!4v1776841014812!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <div class="end">
+<div class="contact">
+    <h1>Contact Us</h1>
+   <p>Location:Tamil Nadu.India</p>
+    <p>Email:dhanush638022@gmail.com</p>
+     <p>Phone:6380220595</p>
+</div>
+<div class="contact">
+    <h1>Contact form</h1>
+    <p>Name:MENS DRESS COLLECTION</p>
+    <p>Email:dhanush638022@gmail.com</p>
+    <p>Message:Dress collection</p>
+</div>
+<div class="contact">
+    <h1>Basics</h1>
+    <p>Address:515,keeranur</p>
+    <p>Phone number:6380220595</p>
+    <p>Email:arun5367@gmail.com</p>
+</div>
+<div class="contact">
+    <h1>Working time</h1>
+    <p>Mon-Sat:9:00AM-9:00PM</p>
+    <p>Sunday:closed</p>
+    <div class="control">
+   <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="social"><i class="fa fa-instagram"style="width: 7rem;"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+</div>
+</div>
+ </div>
+  </div>
+  </div>
+</div>
+</body></html>

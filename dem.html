@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dress Collection Bill</title>
+<style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .invoice-box { max-width: 800px; margin: auto; padding: 30px; border: 1px solid #eee; }
+    table { width: 100%; line-height: inherit; text-align: left; border-collapse: collapse; }
+    table th { background: #f2f2f2; }
+    table td, table th { padding: 10px; border: 1px solid #ddd; }
+    .total { font-weight: bold; }
+    .alert { padding: 15px; background-color: #4CAF50; color: white; margin-bottom: 15px; display: none; }
+    @media print {
+        .no-print { display: none; }
+    }
+</style>
+</head>
+<body>
+
+<div class="invoice-box">
+    <!-- Alert Message Section -->
+    <div id="alertBox" class="alert">Bill prepared successfully!</div>
+
+    <h2>Dress Collection Inc.</h2>
+    <p>Date: <span id="date"></span></p>
+
+    <table id="billTable">
+        <thead>
+            <tr>
+                <th>Item Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Summer Dress</td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>Evening Gown</td>
+                <td>$150.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="total">Total Items: <span id="itemCount"></span></p>
+    <p class="total">Total Amount: $<span id="totalAmount"></span></p>
+
+    <button class="no-print" onclick="printBill()">Print Bill</button>
+</div>
+
+<script>
+    // 1. Alert Message Function
+    window.onload = function() {
+        var alertBox = document.getElementById("alertBox");
+        alertBox.style.display = "block";
+        setTimeout(function(){ alertBox.style.display = "none"; }, 3000);
+        
+        // 2. Count Items Function
+        var table = document.getElementById("billTable");
+        var rowCount = table.rows.length - 1; // Subtract header
+        document.getElementById("itemCount").innerText = rowCount;
+        document.getElementById("date").innerText = new Date().toLocaleDateString();
+        document.getElementById("totalAmount").innerText = "200.00";
+    }
+
+    // 3. Print Bill Function
+    function printBill() {
+        window.print();
+    }
+</script>
+
+</body>
+</html>
